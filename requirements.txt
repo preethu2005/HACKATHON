@@ -1,0 +1,10 @@
+flask
+mysqlclient
+pandas
+scikit-learn
+joblib
+matplotlib
+pdfkit
+smtplib
+opencv-python
+pyzbar

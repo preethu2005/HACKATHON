@@ -1,4 +1,3 @@
-# HACKATHON
 # Inventory Management System
 
 ## How to Run

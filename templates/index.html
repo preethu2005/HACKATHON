@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+    <a href="{{ url_for('add_item') }}">Add Item</a> |
+    
+    <a href="{{ url_for('scan_barcode') }}">Scan Barcode</a> |
+    <a href="{{ url_for('sales_prediction') }}">Sales Prediction</a> |
+    <a href="{{ url_for('generate_report') }}">Reports</a> |
+    <a href="{{ url_for('transactions') }}">Transactions</a>|
+    <a href="{{ url_for('inventory') }}"> Inventory </a>|
+</body>
+</html>
